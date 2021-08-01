@@ -37,18 +37,18 @@ if (Platform.OS === "android") {
 
 const App = createBottomTabNavigator(
   {
-    [MAIN_SCREEN]: MainScreen,
-    [SETTING_SCREEN]: SettingScreen,
-    [EXPLANATION_SCREEN]: IndexLearnScreen,
-    [PAYMENT_SCREEN]: PaymentScreen,
-    [LOCK_SCREEN]: LockScreen,
-    [CBT_ON_BOARDING_SCREEN]: OnboardingScreen,
-    [CHECKUP_SCREEN]: CheckupScreen,
-    [SUPPORT_SCREEN]: SupportScreen,
-    [MARKDOWN_ARTICLE_SCREEN]: MarkdownArticleScreen,
+    [Main Screen]: MainScreen,
+    [Settings]: SettingScreen,
+    [Explanation Screen]: IndexLearnScreen,
+    [Payment Screen]: PaymentScreen,
+    [Lock Screen]: LockScreen,
+    [CBT_on Boarding_Screen]: OnboardingScreen,
+    [CheckUp Screen]: CheckupScreen,
+    [Support Screen]: SupportScreen,
+    [Markdow Article Screen]: MarkdownArticleScreen,
   },
   {
-    initialRouteName: PAYMENT_SCREEN,
+    initialRouteName: Payment Screen,
     tabBarComponent: props => {
       return <TabBar {...props} />;
     },
